@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl"
+       version="1.0"
+       class="in-text"
+       default-locale="en-US">
+  <info>
+    <title>Mali Citation Custom</title>
+    <id>http://www.zotero.org/styles/mali-citation-custom</id>
+    <link href="http://www.zotero.org/styles/mali-citation-custom" rel="self"/>
+    <author>
+      <name>Ali</name>
+    </author>
+    <category citation-format="numeric"/>
+    <updated>2026-03-15T00:00:00+00:00</updated>
+  </info>
+
+  <citation>
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter="][">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <bibliography>
+    <layout>
+      <text variable="citation-number" prefix="[" suffix="] "/>
+      <text variable="title"/>
+    </layout>
+  </bibliography>
+</style>
